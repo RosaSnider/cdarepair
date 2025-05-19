@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDA Repair - Your Family Appliance Experts</title>
+    <!-- Add Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            z-index: 1000;
+        }
+        .logo-img {
+            height: 50px;
+        }
+        .navbar ul {
+            display: flex;
+            list-style: none;
+            align-items: center;
+            margin: 0;
+        }
+        .navbar ul li {
+            margin-left: 2rem;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #337ab7;
+            font-weight: 700;
+        }
+        .hero {
+            background: url('imageskitchen-bg.jpg') center/cover no-repeat;
+            padding: 80px 20px;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: #fff;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+        .hero h1, .hero p {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .section {
+            padding: 40px 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .section h2 {
+            color: #337ab7;
+            margin-bottom: 20px;
+        }
+        .service-list, .area-list, .appliance-list, .manufacturer-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .service-list li, .area-list li, .appliance-list li, .manufacturer-list li {
+            background-color: #fff;
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #337ab7;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #23527c;
+        }
+        .family-owned {
+            font-style: italic;
+            color: #777;
+            display: block;
+            margin-top: 10px;
+        }
+        /* Add styles for social media links */
+        .social-links a {
+            color: #337ab7;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .social-links i {
+            margin-right: 5px;
+        }
+        @media (max-width: 768px) {
+            .navbar ul {
+                flex-direction: column;
+                align-items: flex-end;
+            }
+            .navbar ul li {
+                margin: 0.5rem 0;
+            }
+            .logo-img {
+                height: 40px;
+            }
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="imagescda-logo.png" alt="CDA Repair Logo - Family-Owned Appliance Repair in Dalton Gardens, ID" class="logo-img">
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#areas">Areas We Serve</a></li>
+            <li><a href="#appliances">Appliances</a></li>
+            <li><a href="#manufacturers">Manufacturers</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <h1>Trusted Appliance Repair in Coeur d’Alene and Spokane Valley</h1>
+        <p class="family-owned">CDA Repair: Your Family-Owned Experts in Dalton Gardens, ID</p>
+        <p>Fast, reliable, and affordable appliance repair services across Spokane Valley, Coeur d’Alene, Hayden, Sagle, and the Inland Northwest.</p>
+        <a href="#contact" class="cta-button">Book Your Repair Now!</a>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Expert Appliance Repair Services in the Inland Northwest</h2>
+        <ul class="service-list">
+            <li>Refrigerator Repair<br>Quick fixes for cooling issues, including sealed system repairs, in Coeur d’Alene.</li>
+            <li>Freezer Repair<br>Restore your freezer’s performance with our expert service in Spokane Valley.</li>
+            <li>Ice Maker Repair<br>Keep your ice maker running smoothly with fast repairs in Hayden, ID.</li>
+            <li>Washing Machine Repair (Top Load)<br>Reliable top-load washer repairs to get your laundry back on track in Dalton Gardens.</li>
+            <li>Washing Machine Repair (Front Load)<br>Specialized front-load washer repairs for homes in Post Falls, ID.</li>
+            <li>Dryer Repair (Electric)<br>Fast electric dryer repairs to keep your laundry routine uninterrupted in Rathdrum.</li>
+            <li>Dryer Repair (Gas)<br>Expert gas dryer repairs with safety first, serving Sagle, ID.</li>
+            <li>Dishwasher Repair<br>Fix leaks and clogs with our dishwasher repair services in Liberty Lake, WA.</li>
+            <li>Oven Repair (Electric)<br>Get your electric oven back to peak performance in Spokane County.</li>
+            <li>Oven Repair (Gas)<br>Safe and efficient gas oven repairs for Kootenai County homes.</li>
+            <li>Range Repair (Electric)<br>Electric range repairs to keep your kitchen functional in Coeur d’Alene.</li>
+            <li>Range Repair (Gas)<br>Gas range repairs with precision, serving Hayden, ID.</li>
+            <li>Cooktop Repair (Electric)<br>Fast electric cooktop repairs for Spokane Valley kitchens.</li>
+            <li>Cooktop Repair (Gas)<br>Expert gas cooktop repairs for safe cooking in Post Falls.</li>
+            <li>Microwave Repair<br>Quick microwave repairs to keep your kitchen running smoothly in Sagle.</li>
+            <li>Garbage Disposal Repair<br>Fix jammed or clogged disposals with our services in Rathdrum, ID.</li>
+        </ul>
+    </section>
+
+    <section id="areas" class="section">
+        <h2>Areas We Serve in the Inland Northwest</h2>
+        <p>From Dalton Gardens to Spokane Valley, CDA Repair provides expert appliance repair services across the Inland Northwest.</p>
+        <ul class="area-list">
+            <li>Spokane Valley, WA</li>
+            <li>Coeur d’Alene, ID</li>
+            <li>Hayden, ID</li>
+            <li>Sagle, ID</li>
+            <li>Post Falls, ID</li>
+            <li>Rathdrum, ID</li>
+            <li>Liberty Lake, WA</li>
+            <li>Spokane County, WA</li>
+            <li>Kootenai County, ID</li>
+        </ul>
+    </section>
+
+    <section id="appliances" class="section">
+        <h2>Appliances We Service in Coeur d’Alene and Beyond</h2>
+        <p>Our skilled technicians handle all major household appliances, ensuring your home runs smoothly.</p>
+        <ul class="appliance-list">
+            <li>Refrigerators</li>
+            <li>Freezers</li>
+            <li>Ice Makers</li>
+            <li>Top Load Washers</li>
+            <li>Front Load Washers</li>
+            <li>Electric Dryers</li>
+            <li>Gas Dryers</li>
+            <li>Dishwashers</li>
+            <li>Electric Ovens</li>
+            <li>Gas Ovens</li>
+            <li>Electric Ranges</li>
+            <li>Gas Ranges</li>
+            <li>Electric Cooktops</li>
+            <li>Gas Cooktops</li>
+            <li>Microwaves</li>
+            <li>Garbage Disposals</li>
+        </ul>
+    </section>
+
+    <section id="manufacturers" class="section">
+        <h2>Manufacturers We Service in Spokane Valley and Coeur d’Alene</h2>
+        <p>We repair appliances from all major brands, ensuring quality service for every make and model.</p>
+        <ul class="manufacturer-list">
+            <li>Amana</li>
+            <li>Admiral</li>
+            <li>Asko</li>
+            <li>Bosch</li>
+            <li>Dacor</li>
+            <li>Electrolux</li>
+            <li>Frigidaire</li>
+            <li>GE (General Electric)</li>
+            <li>Hotpoint</li>
+            <li>JennAir</li>
+            <li>Kenmore</li>
+            <li>KitchenAid</li>
+            <li>LG</li>
+            <li>Maytag</li>
+            <li>Samsung</li>
+            <li>Speed Queen</li>
+            <li>Whirlpool</li>
+            <li>Wolf</li>
+            <li>Sub-Zero</li>
+            <li>Thermador</li>
+            <li>Viking</li>
+            <li>U-Line</li>
+        </ul>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About CDA Repair – Family-Owned Experts in Dalton Gardens</h2>
+        <p>CDA Repair is a trusted, family-owned appliance repair service based in Dalton Gardens, ID, serving Spokane Valley, Coeur d’Alene, Hayden, Sagle, and the greater Inland Northwest. With a team of expert technicians, we specialize in in-home diagnostics and repairs for all major household appliances, including refrigerators, washers, dryers, dishwashers, and more. Our services include specialized sealed system repairs, ensuring lasting solutions for even the most complex issues. We pride ourselves on fast response times, flexible scheduling, transparent pricing, and a commitment to customer satisfaction. Let our local, family-oriented team keep your home running smoothly with reliable, cost-effective repairs.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact CDA Repair for Fast Service in Coeur d’Alene</h2>
+        <p>Need urgent appliance repair? We’re here to help with fast, reliable service across the Inland Northwest.</p>
+        <p>📍 6848 N. Government Way Ste 114, Dalton Gardens, ID, United States, 83815</p>
+        <p>📞 Call us at (208) 800-3248 or (509) 564-9099</p>
+        <p>Or <a href="#">schedule online</a> to book your appointment today.</p>
+        <p>Stay connected! Follow us on <a href="https://www.facebook.com/CDAApplianceRepair" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a> for exclusive offers and updates.</p>
+    </section>
+
+    <footer>
+        <p>© 2025 CDA Repair | Family-Owned Appliance Repair in Dalton Gardens, ID</p>
+        <p>📍 6848 N. Government Way Ste 114, Dalton Gardens, ID, United States, 83815 | 📞 (208) 800-3248 or (509) 564-9099</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/CDAApplianceRepair" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+            <a href="https://g.page/your-business-name/review" target="_blank"><i class="fab fa-google"></i> Google Reviews</a>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
